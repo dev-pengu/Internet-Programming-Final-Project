@@ -1,0 +1,41 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../../img/main-page/mountains.png);
+    background-size: cover;
+}
+
+main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main div {
+    background-color: rgba(49,145,182, 0.95);
+    padding: 40px;
+    margin: 25px;
+}
+
+main div a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+main div a:hover {
+    color: #00C94B;
+}
+
+main div h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+main div h3 a:hover {
+    color: #00C94B;
+}
