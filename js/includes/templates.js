@@ -37,10 +37,8 @@ function buildNav() {
     </div>`;
 }
 
-function addScrollTopBtn() {
-    document.write(`
-    <button onClick="topFunction()" id="topBtn" title="Go to top">
-        &and;
-    </button>
-    `);
-}
+document.write(`
+<button onClick="topFunction()" id="topBtn" title="Go to top">
+    &and;
+</button>
+`);
