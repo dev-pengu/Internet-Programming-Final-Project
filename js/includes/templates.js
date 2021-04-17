@@ -36,9 +36,3 @@ function buildNav() {
         <a href="#">Contact</a>
     </div>`;
 }
-
-document.write(`
-<button onClick="topFunction()" id="topBtn" title="Go to top">
-    &and;
-</button>
-`);
