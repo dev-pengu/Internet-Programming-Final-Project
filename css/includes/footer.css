@@ -1,9 +1,27 @@
 #page-footer {
-    display: inline-flex;
-    background-color: #024058;
     color: white;
-    width: 100%;
-    height: 150px;
-    justify-content: center;
-    align-content: center;
+    background-color: #051360;
+    height: 100px;
+    padding: 40px;
+}
+
+#page-footer a { 
+    color: white;
+    text-decoration: none;
+}
+
+#page-footer a:hover {
+    color: #4155C1;
+}
+
+#copyright {
+    position: relative;
+    left: 45%;
+    top: 95%;
+}
+
+#attribution {
+    position:relative;
+    left: 42.5%;
+    top: 80%;
 }

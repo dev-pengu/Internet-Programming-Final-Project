@@ -2,23 +2,26 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 body {
     margin: 0;
     padding: 0;
     background: url(../../img/main-page/mountains.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 main {
-    width: 70%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
-}
-
-main div {
-    background-color: rgba(49,145,182, 0.95);
-    padding: 40px;
-    margin: 25px;
 }
 
 main div a {
@@ -33,9 +36,36 @@ main div a:hover {
 
 main div h3 a {
     text-decoration: none;
-    color: black;
+    color: #024058;
 }
 
 main div h3 a:hover {
     color: #00C94B;
+}
+
+#info-blocks div {
+    background-color: white;
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 35px;
+    text-align: center;
+    flex: 1;
+}
+
+#info-blocks div h3 {
+    color: #024058;
+}
+
+#info-blocks {
+    background-color: rgba(48,201,105,0.75);;
+    padding: 20px;
+    margin: 35px;
+    border-radius: 6px;
+    display: flex;
+}
+
+#featured {
+    margin: 35px;
 }
