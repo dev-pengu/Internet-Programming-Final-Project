@@ -5,16 +5,23 @@
     <head>
         <meta charset="utf-8">
         <meta name="author" content="Matt Lippelman & Zach Reynolds">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Copyright For You</title>
         <script src="js/includes/templates.js"></script>
         <script src="js/includes/utilities.js"></script>
+        <script src="js/includes/carousel.js"></script>
+        <script>window.onscroll = function() {scrollFunction()};</script>
         <link rel="stylesheet" href="css/main-page/layout.css">
         <link rel="stylesheet" href="css/includes/nav.css">
         <link rel="stylesheet" href="css/includes/header.css">
         <link rel="stylesheet" href="css/includes/scroll-to-top.css">
         <link rel="stylesheet" href="css/includes/footer.css">
+        <link rel="stylesheet" href="css/includes/carousel-layout.css">
     </head>
     <body>
+        <button onClick="topFunction()" id="top-btn" title="Go to top">
+            &and;
+        </button>
         <header>
             <div id="custom-header"></div>
         </header>
@@ -56,20 +63,47 @@
                     </p>
                 </div>
             </div>
-            <div id="featured">
-                
+            <div id="featured" class="carousel-container">
+                <div id="container">
+                    <h3>Featured Resources</h3>
+                    <div id="gallery-view">
+                        <div id="gallery-container">
+                            <div id="left-view">
+                                <img src="https://placeimg.com/450/450/animals" alt="Site picture" id="left-img">
+                                <h4 id="left-title">Test card 3 title</h4>
+                                <p id="left-link-wrapper" class="card-title">Site URL: <a href="https://google.com" id="left-link">https://google.com</a></p>
+                                <div id="left-cost-wrapper" class="card-title">Cost: <div id="left-cost" class="card-data">Free</div></div>
+                                <div id="left-desc-wrapper" class="card-title">Site Description: <div id="left-desc" class="card-data">This is a brief description of the page. It has any information that may be needed about the site</div></div>
+                            </div>
+                            <button id="nav-left" class="nav-btns">&larr;</button>
+                            <div id="main-view">
+                                <img src="https://placeimg.com/450/450/animals" alt="Site picture" id="main-img">
+                                <h4 id="main-title">Test card 3 title</h4>
+                                <p id="main-link-wrapper" class="card-title">Site URL: <a href="https://google.com" id="main-link">https://google.com</a></p>
+                                <div id="main-cost-wrapper" class="card-title">Cost: <div id="main-cost" class="card-data">Free</div></div>
+                                <div id="main-desc-wrapper" class="card-title">Site Description: <div id="main-desc" class="card-data">This is a brief description of the page. It has any information that may be needed about the site</div></div>
+                            </div>
+                            <div id="right-view">
+                                <img src="https://placeimg.com/450/450/animals" alt="Site picture" id="right-img">
+                                <h4 id="right-title">Test card 3 title</h4>
+                                <p id="right-link-wrapper" class="card-title">Site URL: <a href="https://google.com" id="right-link">https://google.com</a></p>
+                                <div id="right-cost-wrapper" class="card-title">Cost: <div id="right-cost" class="card-data">Free</div></div>
+                                <div id="right-desc-wrapper" class="card-title">Site Description: <div id="right-desc" class="card-data">This is a brief description of the page. It has any information that may be needed about the site</div></div>
+                            </div>
+                            <button id="nav-right" class="nav-btns">&rarr;</i></button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer>
             <div id="custom-footer"></div>
         </footer>
-        <button onClick="topFunction()" id="topBtn" title="Go to top">
-            &and;
-        </button>
     </body>
     <script>
         buildFooter();
         buildHeader();
         buildNav();
+        initCarousel();
     </script>
 </html>
