@@ -22,27 +22,35 @@ main div h3 a:hover {
     box-sizing: border-box;
   }
   
-  /* Create three unequal columns that floats next to each other */
-  .column {
+  
+.column {
     float: left;
-    padding: 10px;
-     /* Should be removed. Only for demonstration */
+    
+    height:200;
+    
   }
   
-  .left, .right {
-    width: 25%;
+.left{
+    width: 20%;
     text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
+    
+    
+  }
+.right {
+    width: 20%;
+    text-align: center;
+    border-style:solid ;
+    border-width: 2px;
+    height: 230px;
   }
   
-  .middle {
-    width: 50%;
+.middle {
+    width: 60%;
     text-align: center;
   }
   
-  /* Clear floats after the columns */
-  .row:after {
+  
+.row:after {
     content: "";
     display: table;
     clear: both;
@@ -60,10 +68,10 @@ main div h3 a:hover {
     width: 90%;
     box-sizing: border-box;
     border-radius: 6px;
-    padding: 30px;
+    padding: 10px;
     margin: 35px;
     text-align: left;
-    height: 200px;
+    height: 250px;
     margin-right: auto;
     margin-left: auto;
     
