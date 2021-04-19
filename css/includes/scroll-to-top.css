@@ -1,4 +1,4 @@
-#topBtn {
+#top-btn {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -17,7 +17,7 @@
     border: 2px solid white;
 }
 
-#topBtn:hover {
+#top-btn:hover {
     background-color: #3191B6;
     color: #024058;
     -webkit-animation: bounce .3s ease infinite alternate;

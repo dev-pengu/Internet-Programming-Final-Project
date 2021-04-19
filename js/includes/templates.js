@@ -33,6 +33,6 @@ function buildNav() {
         <a href="#">SFX Resources</a>
         <a href="#">Video Resources</a>
         <a href="#">Submit a Resource</a>
-        <a href="#">Contact</a>
+        <a href="contact.html">Contact</a>
     </div>`;
 }
