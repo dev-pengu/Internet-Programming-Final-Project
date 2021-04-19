@@ -20,11 +20,9 @@ function closeNav() {
     }
 }
 
-const topButton = document.getElementById("topBtn");
-
-window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
+    const topButton = document.getElementById("top-btn");
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         topButton.style.display = "block";
     } else {
