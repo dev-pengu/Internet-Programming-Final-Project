@@ -1,3 +1,5 @@
+
+
 class Footer extends HTMLElement {
     constructor() {
         super();
@@ -7,7 +9,7 @@ class Footer extends HTMLElement {
         this.innerHTML = `
         <div id="page-footer">
             <div id="attribution">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-            <small id="copyright">&copy; <script>document.write(getCurrentYear());</script> Matt Lippelman & Zach Reynolds</small>
+            <small id="copyright">&copy;` + getCurrentYear() + ` Matt Lippelman & Zach Reynolds</small>
         </div>
         `
     }

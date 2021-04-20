@@ -10,7 +10,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    
+    min-height: 600px;
+    min-width: 1000px;
 }
 
 #container h3 {
@@ -38,7 +39,7 @@
 
 #gallery-container {
     height: 500px;
-    width: 90%;
+    width: 85%;
     background: transparent;
     display: flex;
     flex-direction: row;
@@ -46,6 +47,7 @@
     align-items: center;
     box-sizing: border-box;
     position: relative;
+    
 }
 
 #gallery-view {
@@ -54,6 +56,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 480px;
+    min-width: 980px;
 }
 
 #main-view {
@@ -143,13 +149,9 @@
 
 #main-title {
     font-size: 2em;
-    position: relative;
-    left: 45px;
-    top: -140px;
-    width: 50%;
     padding: 2px;
-    display: inline-flex;
     color: #051360;
+    height: 40px;
 }
 
 #main-img {
@@ -157,9 +159,7 @@
     height: 200px;
     border-radius: 5px;
     border: 2px solid black;
-    position: relative;
-    left: 30px;
-    top: 30px;
+    margin-left: 20px;
 }
 
 #main-link {
@@ -170,34 +170,23 @@
 }
 
 #main-link-wrapper {
-    width: 50%;
     padding: 2px;
-    display: inline-flex;
-    position: relative;
-    left: 260px;
-    top: -170px;
+    word-wrap: break-word;
 }
 
 #main-cost-wrapper {
-    width: 50%;
     padding: 2px;
-    display: inline-flex;
-    position: relative;
-    left: 260px;
-    top: -170px;
 }
 
 #main-desc-wrapper {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-    top: -80px;
-    height: 25%;
     background-color: rgba(49, 145, 182, 0.5);
     color: #051360;
     padding: 20px;
     border-radius: 4px;
+    height: 150px;
 }
 
 #main-desc {
@@ -210,12 +199,8 @@
 
 #left-title {
     font-size: 1.25em;
-    position: relative;
-    left: 5px;
-    top: -130px;
     width: 50%;
     padding: 2px;
-    display: inline-flex;
     color: #051360;
 }
 
@@ -224,35 +209,26 @@
     height: 175px;
     border-radius: 5px;
     border: 2px solid black;
-    position: relative;
-    left: 8px;
-    top: 8px;
+    margin-left: 10px;
 }
 
 #left-link {
     text-decoration: none;
     font-weight:normal;
     cursor:pointer;
-    padding-left: 10px;
+    padding-left: 5px;
+    word-wrap: break-word;
 }
 
 #left-link-wrapper {
     width: 50%;
     padding: 2px;
-    display: inline-flex;
-    position: relative;
-    left: 105px;
-    top: -150px;
     font-size: 65%;
 }
 
 #left-cost-wrapper {
     width: 50%;
     padding: 2px;
-    display: inline-flex;
-    position: relative;
-    left: 105px;
-    top: -145px;
     font-size: 70%;
 }
 
@@ -260,14 +236,12 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-    top: -50px;
-    height: 30%;
     background-color: rgba(49, 145, 182, 0.5);
     color: #051360;
     padding: 20px;
     border-radius: 4px;
     font-size: 75%;
+    height: 130px;
 }
 
 #left-desc {
@@ -280,12 +254,8 @@
 
 #right-title {
     font-size: 1.25em;
-    position: relative;
-    left: 5px;
-    top: -130px;
     width: 50%;
     padding: 2px;
-    display: inline-flex;
     color: #051360;
 }
 
@@ -294,35 +264,26 @@
     height: 175px;
     border-radius: 5px;
     border: 2px solid black;
-    position: relative;
-    left: 8px;
-    top: 8px;
 }
 
 #right-link {
     text-decoration: none;
     font-weight:normal;
     cursor:pointer;
-    padding-left: 10px;
+    padding-left: 5px;
+    max-width: 35%;
+    word-wrap: break-word;
 }
 
 #right-link-wrapper {
     width: 50%;
     padding: 2px;
-    display: inline-flex;
-    position: relative;
-    left: 105px;
-    top: -150px;
     font-size: 65%;
 }
 
 #right-cost-wrapper {
     width: 50%;
     padding: 2px;
-    display: inline-flex;
-    position: relative;
-    left: 105px;
-    top: -145px;
     font-size: 70%;
 }
 
@@ -330,14 +291,13 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-    top: -50px;
     height: 30%;
     background-color: rgba(49, 145, 182, 0.5);
     color: #051360;
     padding: 20px;
     border-radius: 4px;
     font-size: 75%;
+    height: 130px;
 }
 
 #right-desc {
