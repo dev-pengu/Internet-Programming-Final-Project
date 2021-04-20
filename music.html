@@ -5,20 +5,26 @@
     <head>
         <meta charset="utf-8">
         <meta name="author" content="Matt Lippelman & Zach Reynolds">
-        <title>Copyright For You</title>
-        <script src="js/includes/templates.js">addScrollTopBtn();</script>
-        <script src="js/includes/utilities.js"></script>
+        <title>Music Resources - Copyright For You</title>
+        <script src="js/includes/utilities.js" type="text/javascript"></script>
+        <script> window.onscroll = function() {scrollFunction()}; </script>
         <link rel="stylesheet" href="css/sources/source-layout.css">
         <link rel="stylesheet" href="css/includes/nav.css">
         <link rel="stylesheet" href="css/includes/header.css">
         <link rel="stylesheet" href="css/includes/scroll-to-top.css">
         <link rel="stylesheet" href="css/includes/footer.css">
+        <script src="js/includes/Header.js" type="text/javascript" defer></script>
+        <script src="js/includes/Nav.js" type="text/javascript" defer></script>
+        <script src="js/includes/Footer.js" type="text/javascript" defer></script>
     </head>
     <body>
+        <button onClick="topFunction()" id="top-btn" title="Go to top">
+            &and;
+        </button>
         <header>
-            <div id="custom-header"></div>
+            <header-component></header-component>
         </header>
-        <div id="custom-nav"></div>
+        <nav-component></nav-component>
         <main>
             <div id="info-blocks">
                 <div id="info-blocks-div">
@@ -40,9 +46,8 @@
                                <br>
                                Enterprise: Quote Request
                             </p>
-                        
                         </div>
-                    </div>  
+                    </div>
                 </div>
                 <div id="info-blocks-div">
                     <div class="row">
@@ -86,7 +91,7 @@
                                 You can request a commercial license from their <a href="https://ncs.io/music">Website</a></h3>
                             </p>
                         </div>
-                    </div>     
+                    </div>
                 </div>
                 <div id="info-blocks-div">
                     <div class="row">
@@ -108,20 +113,13 @@
                                 <br>
                                 Premium License: $244.65
                             </p>
-                        
                         </div>
                     </div>
-                                
-                </div>  
+                </div>
             </div>
         </main>
         <footer>
-            <div id="custom-footer"></div>
+            <footer-component></footer-component>
         </footer>
     </body>
-    <script>
-        buildFooter();
-        buildHeader();
-        buildNav();
-    </script>
 </html>
