@@ -7,15 +7,17 @@
         <meta name="author" content="Matt Lippelman & Zach Reynolds">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Copyright For You</title>
-        <script src="js/includes/templates.js"></script>
-        <script src="js/includes/utilities.js"></script>
-        <script src="js/includes/carousel.js"></script>
-        <script>window.onscroll = function() {scrollFunction()};</script>
+        <script src="js/includes/utilities.js" type="text/javascript"></script>
+        <script src="js/includes/carousel.js" type="text/javascript"></script>
+        <script> window.onscroll = function() {scrollFunction()}; </script>
         <link rel="stylesheet" href="css/main-page/layout.css">
         <link rel="stylesheet" href="css/includes/nav.css">
         <link rel="stylesheet" href="css/includes/header.css">
         <link rel="stylesheet" href="css/includes/scroll-to-top.css">
         <link rel="stylesheet" href="css/includes/footer.css">
+        <script src="js/includes/Header.js" type="text/javascript" defer></script>
+        <script src="js/includes/Nav.js" type="text/javascript" defer></script>
+        <script src="js/includes/Footer.js" type="text/javascript" defer></script>
         <link rel="stylesheet" href="css/includes/carousel-layout.css">
     </head>
     <body>
@@ -23,9 +25,9 @@
             &and;
         </button>
         <header>
-            <div id="custom-header"></div>
+            <header-component></header-component>
         </header>
-        <div id="custom-nav"></div>
+        <nav-component></nav-component>
         <main>
             <div id="info-blocks">
                 <div id="page-description">
@@ -95,15 +97,10 @@
                     </div>
                 </div>
             </div>
+            <script>initCarousel();</script>
         </main>
         <footer>
-            <div id="custom-footer"></div>
+            <footer-component></footer-component>
         </footer>
     </body>
-    <script>
-        buildFooter();
-        buildHeader();
-        buildNav();
-        initCarousel();
-    </script>
 </html>
