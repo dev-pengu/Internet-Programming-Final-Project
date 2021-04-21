@@ -64,6 +64,7 @@ div p {
     text-align: center;
     border-style:solid ;
     border-width: 2px;
+    border-radius: 6px;
     height: 230px;
     min-width: 180px;
   }
