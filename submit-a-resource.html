@@ -39,21 +39,29 @@
                 <div class="form-container">
                     <form>
                         <label for="siteurl">Site URL</label>
-                        <input type="text" id="siteurl" name="siteUrl" placeholder="www.somesite.com" required="required">
+                        <input type="text" id="siteurl" name="siteUrl" placeholder="www.somesite.com" required="required" tabindex="1">
 
                         <label for="sitename">Site Name</label>
-                        <input type="text" id="sitename" name="siteName" placeholder="Some Site">
+                        <input type="text" id="sitename" name="siteName" placeholder="Some Site" tabindex="2">
+
+                        <label for="category">Category</label>
+                        <select id="category" name="category" tabindex="3">
+                            <option value="music">Music</option>
+                            <option value="image">Image</option>
+                            <option value="sfx">Sound Effects</option>
+                            <option value="video">Video</option>
+                        </select>
 
                         <label for="costdetails">Cost Details</label>
-                        <textarea id="costdetails" name="costDetails" placeholder="Its free!!!!"></textarea>
+                        <textarea id="costdetails" name="costDetails" placeholder="Its free!!!!" tabindex="4"></textarea>
 
                         <label for="description">Site Description</label>
-                        <textarea id="description" name="description" placeholder="Just a brief description of the site. Don't have to get too fancy here!"></textarea>
+                        <textarea id="description" name="description" placeholder="Just a brief description of the site. Don't have to get too fancy here!" tabindex="5"></textarea>
 
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="email@domain.com">
+                        <input type="email" id="email" name="email" placeholder="email@domain.com" tabindex="6">
 
-                        <input type="submit" value="Submit">
+                        <input type="submit" value="Submit" tabindex="7">
                     </form>
                 </div>
             </div>
