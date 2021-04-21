@@ -115,3 +115,7 @@ div p {
     width: 80vw;
     min-width: 1000px;
 }
+
+#info-blocks h2 {
+    color: #024058;
+}
