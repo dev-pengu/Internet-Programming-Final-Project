@@ -45,6 +45,8 @@
 #
 # -----------------------------------------------------------------
 
+*:Zone.Identifier
+
 # ignore all files starting with . or ~
 .*
 ~*
