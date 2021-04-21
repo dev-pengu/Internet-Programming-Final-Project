@@ -1,0 +1,26 @@
+{
+  "sources": {
+    "source": [
+      {
+        "id": "1",
+        "siteName": "Epidemic Sound",
+        "siteURL": "https://www.epidemicsound.com/music/",
+        "photoURL": "img/music/epidemic_logo.png",
+        "description": "Epidemic Sound is a subscription based music libray. Once subscribed you will have access to over 45,000 songs and 90,000 sound effects. Epidemic Sound also offers the ability to buy the rights for a single song although it is cheaper to pay for a monthly subscription. Before deciding on subscribing you have the ability to listen to all of the songs. Epidemic Sound is a great page for all of your music needs. Their website is easy to use and they have a large library to choose from. Epidemic Sound is one of our Highly Recommended websites.",
+        "costDetails": "Personal: $15/month <br> Commercial: $49/month <br> Enterprise: Quote Request",
+        "category": "music",
+        "featured": true
+      },
+      {
+        "id": "2",
+        "siteName": "Audio Jungle",
+        "siteURL": "https://audiojungle.net/",
+        "photoURL": "img/music/audio-jungle.png",
+        "description": "Audio Jungle is a subscription based music library. They have over 1,500,000 sound related choices to choose from. Audio Jungle contains full sound tracks, sound effect, as well as individual music kits to cater to any music needs. Audio Jungle also has the option to purchase the rights to single tracks for as little as $1. Audio Jungle is an easy to use website with the ability to search for exactly what you need. They are a great choice when selecting a site for your music needs. Audio Jungle is one of our Highly Recommended websites.",
+        "costDetails": "Personal: $16.50/month <br> Teams(price per person): $10.75-$14.50/month <br> Enterprise: Request Quote",
+        "category": "music",
+        "featured": true
+      }
+    ]
+  }
+}
