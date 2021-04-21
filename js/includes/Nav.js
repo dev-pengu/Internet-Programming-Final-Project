@@ -21,7 +21,7 @@ class Nav extends HTMLElement {
             <a href="#">Image Resources</a>
             <a href="#">SFX Resources</a>
             <a href="#">Video Resources</a>
-            <a href="#">Submit a Resource</a>
+            <a href="submit-a-resource.html">Submit a Resource</a>
             <a href="contact.html">Contact</a>
         </div>
         `;
