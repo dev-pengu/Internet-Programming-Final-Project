@@ -19,7 +19,7 @@ class Nav extends HTMLElement {
             <a href="index.html">Home</a>
             <a href="music.html">Music Resources</a>
             <a href="image.html">Image Resources</a>
-            <a href="#">SFX Resources</a>
+            <a href="sfx.html">SFX Resources</a>
             <a href="#">Video Resources</a>
             <a href="submit-a-resource.html">Submit a Resource</a>
             <a href="contact.html">Contact</a>
